@@ -11,3 +11,6 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+
+.obj/staticwebassets.pack.sentinel
