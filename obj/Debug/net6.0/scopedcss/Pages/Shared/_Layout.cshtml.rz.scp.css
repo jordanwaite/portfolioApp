@@ -17,12 +17,6 @@ a[b-o2b0zbxdfd] {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-o2b0zbxdfd], .nav-pills .show > .nav-link[b-o2b0zbxdfd] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
 .border-top[b-o2b0zbxdfd] {
   border-top: 1px solid #e5e5e5;
 }
@@ -45,4 +39,41 @@ button.accept-policy[b-o2b0zbxdfd] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+nav.navbar[b-o2b0zbxdfd] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-link.a[b-o2b0zbxdfd] {
+  text-decoration: none;
+}
+
+#large-name[b-o2b0zbxdfd] {
+  color: darkblue;
+}
+
+.navbar a[b-o2b0zbxdfd] {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #1095c1; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.navbar a:hover[b-o2b0zbxdfd] {
+  --_p: 100%;
+  --_s: .3s;
 }
