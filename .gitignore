@@ -14,3 +14,6 @@
 
 
 .obj/staticwebassets.pack.sentinel
+
+bin/
+obj/

@@ -1,47 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a {
-  color: #0077cc;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
-
-nav.navbar {
+﻿nav.navbar {
   padding-top: 2rem;
   padding-bottom: 2rem;
   max-width: 1000px;
@@ -50,10 +7,6 @@ nav.navbar {
 
 .nav-link.a {
   text-decoration: none;
-}
-
-#large-name {
-  color: darkblue;
 }
 
 .navbar a {
@@ -73,7 +26,20 @@ nav.navbar {
           background-clip: text,padding-box;
   transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
 }
+
 .navbar a:hover {
   --_p: 100%;
   --_s: .3s;
+}
+
+a {
+  color: #0077cc;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
 }
