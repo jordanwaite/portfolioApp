@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+main.row {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .nav-link.a {
   text-decoration: none;
 }
