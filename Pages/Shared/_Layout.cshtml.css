@@ -22,7 +22,7 @@ main.row {
   --b: 0.2em; /* Line Thickness */
   --c: #1457d4; /* Line Color */
 
-  color: #0000;
+  color: rgb(0, 0, 0);
   padding-block: var(--b);
   background: linear-gradient(var(--c) 50%, #000 0) 0%
       calc(100% - var(--_p, 0%)) / 100% 200%,
