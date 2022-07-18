@@ -1,4 +1,15 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// Whenever the page scrolls
+function anchor_visible() {
+  // If the window is scrolled down (more than a 20px buffer)
+  if(window.scrollY > 20){
+    // Show your button
+    document.getElementById("go-top-anchor").style.visibility = "visible";
+  }else{
+    // Otherwise, hide your button
+    document.getElementById("go-top-anchor").style.visibility = "hidden";
+  }
+}
 
-// Write your JavaScript code.
+function hide_near_top() {
+  location.href = "#top";
+}

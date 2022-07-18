@@ -13,9 +13,9 @@
 
 </head>
 
-<body>
+<body onscroll="anchor_visible()">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-light" id="top">
             <a class="navbar-brand" href="#" style="color: #1457d4">JW.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggle" aria-controls="navbarToggle"
@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,6 +42,11 @@
     <main role="main">
         @RenderBody()
     </main>
+
+    <div class="container fixed-bottom text-end p-3">
+        <img src="/images/arrow-up-circle.svg" alt="up-arrow"
+            id="go-top-anchor" height="40" onclick="hide_near_top()">
+    </div>
 
     <footer class="footer text-muted text-center">
         <div class="container">
