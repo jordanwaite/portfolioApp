@@ -1,12 +1,12 @@
 ﻿nav.navbar {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 main.row {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -45,4 +45,9 @@ main.row {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.img-max {
+  max-width: 50px;
+  width: 100%;
 }
