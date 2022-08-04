@@ -16,3 +16,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.tech_stack:hover {
+  background-color: aliceblue;
+  text-decoration: dashed;
+  cursor: default;
+  
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.tech_stack {
+  margin: .5em;
+  box-shadow: black 0px 3px 3px 0px;
+}
