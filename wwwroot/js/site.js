@@ -1,11 +1,11 @@
 ﻿// Whenever the page scrolls
 function anchor_visible() {
-  // If the window is scrolled down (more than a 20px buffer)
+  // If the window is scrolled down
   if(window.scrollY > 80){
-    // Show your button
+    // Show button
     document.getElementById("go-top-anchor").style.visibility = "visible";
   }else{
-    // Otherwise, hide your button
+    // Otherwise, hide button
     document.getElementById("go-top-anchor").style.visibility = "hidden";
   }
 }
