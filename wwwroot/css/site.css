@@ -19,11 +19,8 @@ body {
 
 .tech_stack:hover {
   background-color: aliceblue;
-  text-decoration: dashed;
   cursor: default;
-  
   transition: transform 0.2s ease-in-out;
-
 }
 
 .tech_stack {
@@ -34,4 +31,27 @@ body {
 .img-max {
   max-width: 5rem;
   width: 100%;
+}
+
+.hover-1 {
+  padding: 10px;
+  font-weight: 800;
+  font-size: 1.7rem;
+
+  --b: 0.2em;   /* the thickness of the line */
+  --c: #1554dd; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover-1:hover {
+  --_p: 100%;
+  --_s: .3s;
+  color: red;
 }
