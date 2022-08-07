@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/portfolioApp.styles.css"
-        asp-append-version="true" />   
+        asp-append-version="true" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body onscroll="anchor_visible()">
@@ -39,9 +41,10 @@
         @RenderBody()
     </main>
 
-    <div class="container fixed-bottom text-end pb-5" style="max-width:1000px;">
-        <img src="images/arrow-up-circle.svg" alt="up-arrow"
-            id="go-top-anchor" height="40" onclick="hide_near_top()">
+    <div class="container fixed-bottom text-end pb-5"
+        style="max-width:1000px;">
+        <img src="images/arrow-up-circle.svg" alt="up-arrow" id="go-top-anchor"
+            height="40" onclick="hide_near_top()">
     </div>
 
     <footer class="footer text-muted text-center">

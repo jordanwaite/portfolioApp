@@ -30,3 +30,8 @@ body {
   margin: .5em;
   box-shadow: black 0px 3px 3px 0px;
 }
+
+.img-max {
+  max-width: 5rem;
+  width: 100%;
+}
