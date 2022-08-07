@@ -15,10 +15,11 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgb(255, 255, 255);
 }
 
 .tech_stack:hover {
-  background-color: aliceblue;
+  background-color: rgb(199, 221, 240);
   cursor: default;
   transition: transform 0.2s ease-in-out;
 }
