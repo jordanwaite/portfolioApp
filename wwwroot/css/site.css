@@ -33,6 +33,11 @@ body {
   width: 100%;
 }
 
+.img-touch{
+  max-width: 4rem;
+  width: 100%;
+}
+
 .hover-1 {
   padding: 10px;
   font-weight: 800;
@@ -53,5 +58,4 @@ body {
 .hover-1:hover {
   --_p: 100%;
   --_s: .3s;
-  color: red;
 }
