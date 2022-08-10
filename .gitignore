@@ -19,3 +19,5 @@ bin/
 obj/
 
 publish/
+
+.github/
