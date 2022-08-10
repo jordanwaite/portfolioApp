@@ -34,6 +34,11 @@ body {
   width: 100%;
 }
 
+.img-card-max {
+  max-width: 400px;
+  max-height: 450px;
+}
+
 .img-touch{
   max-width: 4rem;
   width: 100%;
