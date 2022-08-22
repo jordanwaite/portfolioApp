@@ -1,3 +1,3 @@
 # portfolioApp
 
-jordanwaite.us
+https://www.jordanwaite.us/
