@@ -31,6 +31,7 @@ body {
 
 .card_stack {
   margin: .5em;
+  padding-bottom: 2rem;
   box-shadow: #1554dd 0px 0px 10px 1px;
 }
 
