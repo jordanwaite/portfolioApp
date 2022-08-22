@@ -29,6 +29,16 @@ body {
   box-shadow: black 0px 3px 3px 0px;
 }
 
+.card_stack {
+  margin: .5em;
+  box-shadow: #1554dd 0px 0px 10px 1px;
+}
+
+.card_stack:hover{
+  background-color: aliceblue;
+  transition: background-color .25s ease-in-out;
+}
+
 .img-max {
   max-width: 5rem;
   width: 100%;
