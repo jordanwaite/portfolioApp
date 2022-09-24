@@ -1,5 +1,5 @@
 # Personal Website
-Created from scratch using: .NET and BS5 for the majority of the styling.
+Created from scratch using .NET and BS5 for the majority of the styling.
 Hosted on Azure.
 
 # https://jordanwaite.us/
